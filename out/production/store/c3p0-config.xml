@@ -1,0 +1,13 @@
+<c3p0-config>
+  <default-config>
+  <!--setInitialPoolSize  -->
+    <property name="initialPoolSize">10</property>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/javawebdemo?useUnicode=true&amp;characterEncoding=utf-8</property>
+    <property name="user">root</property>
+    <property name="password">123456</property>
+
+
+  </default-config>
+
+</c3p0-config>
